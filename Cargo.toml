@@ -23,3 +23,6 @@ tide = "0.13.0"
 async-std = { version = "1.6", features = ["attributes"] }
 tokio = { version = "0.2", features = ["full"] }
 chrono = "0.4.15"
+log = "0.4.0"
+env_logger = "0.7.1"
+sqlx = { version =  "0.4.0-beta.1", features = [ "postgres", "macros", "runtime-async-std" ] }
